@@ -1,1 +1,67 @@
-#This project is a Streamlit-based web application that predicts weather-related metrics using air pollution and meteorological data through a trained regression model. It features an interactive user interface where users can input pollutant levels (such as SO₂, CO, NO₂, etc.) and weather parameters (like wind speed, humidity, and temperature) to generate real-time predictions. The app also includes animated visuals and informative sections that explain the causes, effects, and prevention of air pollution, making it both educational and functional. Built using Python, scikit-learn, and Lottie animations, this tool aims to raise awareness while applying data science for environmental insights.
+#Important:File Named Final!!.csv is the dataset!!!!!!!!
+
+# 🌤️ Weather Forecast using Pollution Data
+
+This project predicts weather conditions based on pollution levels using a trained machine learning model. It is built with Streamlit and provides an interactive UI for predictions.
+
+---
+
+## 📝 Features
+
+* Predicts weather metric from 12 pollution parameters (SO₂, NO₂, CO, etc.)
+* Built with Streamlit and Python
+* Includes pollution info, effects, and precautions
+* Visuals added using Lottie animations
+
+---
+
+## 📁 Files Included
+
+* `Frntend_WP.py`: Frontend Streamlit app
+* `Backend_WP.py`: Backend (same logic as frontend)
+* `ModelRegr.pkl`: Pre-trained ML model
+* `data/`: Dataset file (upload separately)
+* `screenshots/`: UI images of the project
+
+---
+
+## ▶️ How to Run
+
+1. Install dependencies:
+
+   ```
+   pip install streamlit streamlit-lottie
+   ```
+
+2. Run the app:
+
+   ```
+   streamlit run Frntend_WP.py
+   ```
+
+---
+
+## 📊 Input Parameters
+
+* SO₂, CO, NO, NO₂, NOx, NH₃, O₃
+* Wind Speed, Direction
+* Humidity, Solar Radiation, Temperature
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots inside `/screenshots` and link here (optional).
+
+---
+
+## 📦 Future Scope
+
+* Add model explainability
+* Deploy on cloud
+* Improve UI and responsiveness
+
+---
+
+Let me know if you'd like a `.md` file version too!
+
